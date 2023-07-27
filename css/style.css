@@ -1,0 +1,46 @@
+:root{
+    --main-color:rgb(23, 162, 184);
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: #24353f;
+}
+.all {
+    background: inherit;
+    padding: 100px 50px;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+h1 {
+    color: var(--main-color);
+        font-size: 2.5rem;
+
+}
+input {
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 1rem !important;
+}
+
+input::placeholder {
+    color: rgb(175, 165, 165) !important;
+    font-size: 23px;
+}
+.all .btn {
+    color:var(--main-color) ;
+        border-color: var(--main-color);
+    padding: 1rem !important;
+font-size: 1.5rem;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--main-color);
+    border-color: none;
+}
+
+.all span {
+    cursor: pointer;
+}
+
+
+

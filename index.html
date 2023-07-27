@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+
+
+    <!-- google fonts -->
+
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">  -->
+
+
+    <!-- main style -->
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class=" text-white my-5 mx-auto  text-center ">
+            <div class="all w-75 mx-auto">
+                <h1>Smart Login System</h1>
+
+                <div class="signUp ">
+                    <input type="text" class="name form-control my-3" placeholder="Enter your name">
+                    <input type="email" class="email form-control my-3" placeholder="Enter your email">
+                    <input type="password" class="password form-control my-3" placeholder="Enter your password">
+                    <button class="btn form-control">Sign Up</button>
+                    <p class="my-3 fs-4" style="font-size: 1rem;">You have an account? <span
+                            class="linkeSignIn">SignIn</span> </p>
+                </div>
+
+                <form  method="post">
+                    <div class="login d-none">
+                        <input type="email" class="email form-control my-3" placeholder="Enter your email">
+                        <input type="password" class="password form-control my-3" placeholder="Enter your password">
+                        <button class="btn form-control">Login</button>
+                        <p class="my-3 fs-4" style="font-size: 1rem;">Don't have an account? <span
+                                class="linkeSignUp">Sign Up</span> </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="btn btn-info logOut">logOut</div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
